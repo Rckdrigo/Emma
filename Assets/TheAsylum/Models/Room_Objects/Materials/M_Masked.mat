@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: M_Masked
+  m_Shader: {fileID: 4800000, guid: d86bae2a50d1d84459c1b5713c93f5a8, type: 3}
+  m_ShaderKeywords: _DETAIL_MAP_ON
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 978391cdef93e3a458dfd681419128dc, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 78faea9b97edfd041b00af01e3e00fc8, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _MASK
+        second:
+          m_Texture: {fileID: 2800000, guid: 39c4303be0f947d4f979f86763da7c95, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap_DETAIL
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DetailMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: .5
+      data:
+        first:
+          name: _Shininess
+        second: .5
+      data:
+        first:
+          name: _Tile
+        second: 30
+      data:
+        first:
+          name: _Mask_Power
+        second: 1
+      data:
+        first:
+          name: _Mask_Brightness
+        second: 1
+      data:
+        first:
+          name: _SpecularMap
+        second: 0
+      data:
+        first:
+          name: _Specular
+        second: 1
+      data:
+        first:
+          name: _Specular_Brightness
+        second: 1
+      data:
+        first:
+          name: _Detail_Map
+        second: 1
+      data:
+        first:
+          name: _Detail_Power
+        second: 1
+      data:
+        first:
+          name: _Detail_Brightness
+        second: 1
+      data:
+        first:
+          name: _Detail_Desaturate
+        second: 1
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: .5, g: .5, b: .5, a: 1}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: 1, g: 1, b: 1, a: 1}

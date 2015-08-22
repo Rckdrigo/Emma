@@ -1,0 +1,28 @@
+SuperCube shortcuts!
+_________________________________
+
+Global shortcuts:
+---------------------------------
+Ctrl+Alt+c: Create cube.
+Ctrl+Alt+l: Create plane.
+
+With a SuperObject selected:
+---------------------------------
+Shift:    Hide transform widgets.
+Alt:      Show visibility toggles.
+Ctrl:     Disable snap.
+Ctrl+Alt: Show 'extrude' buttons.
+
+Drag+Drop materials on the CENTER of faces to override the material for that face.
+Drag+Drop materials on the CORNERS or EDGES of the cubes to set the default material.
+
+Shift+X: Toggle YZ axis movement handles
+Shift+Y: Toggle XZ axis movement handles
+Shift+Z: Toggle XY axis movement handles
+
+---------------------------------
+Don't forget the preferences menu either! Edit->Preferences->Ferr SuperCube
+
+Got questions or suggestions? Email support@simbryocorp.com!
+
+For additional docs and videos, check out http://ferrlib.com/page/Ferr_SuperCube

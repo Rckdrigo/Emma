@@ -1,0 +1,169 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Wall_Plaster_Old
+  m_Shader: {fileID: 4800000, guid: f422e346f06c70745a47854e6714c466, type: 3}
+  m_ShaderKeywords: _SPEC_TEXTURE_ON
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: fac6750402ab89f4fb3ca76752f36cfa, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 185d5cdd2b373e1429542d11b0334799, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _MainTex_Detail
+        second:
+          m_Texture: {fileID: 2800000, guid: 3d6f2e513a6a9fe47a2edc2abdce7990, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SpecMap
+        second:
+          m_Texture: {fileID: 2800000, guid: fac6750402ab89f4fb3ca76752f36cfa, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap_Detail
+        second:
+          m_Texture: {fileID: 2800000, guid: 7b21e4a00b08284449f734e9b188426c, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Illum
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Shininess
+        second: .62648505
+      data:
+        first:
+          name: _Illum_Brightness
+        second: 0
+      data:
+        first:
+          name: _Specular_Brightness
+        second: .200000003
+      data:
+        first:
+          name: _MainTex_Tile
+        second: 1
+      data:
+        first:
+          name: _MainTex_Desaturate
+        second: 0
+      data:
+        first:
+          name: _MainTex_Brightness
+        second: 1
+      data:
+        first:
+          name: _MainText_Contrast
+        second: .285714298
+      data:
+        first:
+          name: _MainTex_Detail_Tile
+        second: 1
+      data:
+        first:
+          name: _MainText_Detail_Amound
+        second: .357142836
+      data:
+        first:
+          name: _Spec_Texture
+        second: .765647113
+      data:
+        first:
+          name: _Specular_Invert
+        second: 0
+      data:
+        first:
+          name: _Specular_Tile
+        second: 1
+      data:
+        first:
+          name: _Specular_Power
+        second: 1
+      data:
+        first:
+          name: _BumbMap_Tile
+        second: 1
+      data:
+        first:
+          name: _BumbMap_Detail_Tile
+        second: 5
+      data:
+        first:
+          name: _BumbMapDetail_Power
+        second: .300000012
+      data:
+        first:
+          name: _Illum_Tile
+        second: 1
+      data:
+        first:
+          name: _IllumBlink
+        second: 0
+      data:
+        first:
+          name: _PulseBlink
+        second: 0
+      data:
+        first:
+          name: _Blink_A
+        second: 2
+      data:
+        first:
+          name: _Blink_B
+        second: 8
+      data:
+        first:
+          name: _Blink_C
+        second: 10
+      data:
+        first:
+          name: _Blink_D
+        second: 5
+      data:
+        first:
+          name: _OffTime
+        second: .300000012
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _Illum_Color
+        second: {r: 1, g: 1, b: 1, a: 1}

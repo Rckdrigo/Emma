@@ -1,0 +1,19 @@
+Thank you for Buying this Package
+In this package you will find all the necessary models, materials and textures to create a great and spooky looking asylum environment.
+The package contains the following
+-Extra Contains a player and flashlight script. Push F to switch the flashlight on/off
+-Models Folder Containing all the package models (112 models)
+-Scene folder with a example scene.
+-Shader Folder with all the necessaries shaders (4 Shaders)
+-Texture Folder with all the package textures (125 texture)
+
+Helpful tips for usage!
+
+_The example Scene has no lightmap to save data space.  Please bake you lightmaps 1st
+_All models are build to be used modular and have therefore a set pivot position. Be sure to use snap Pivot to align the models correctly.
+_Texture have all but a few,  2048X2048 textures supported by NormalMaps and Emission maps
+_For the use of the Glass Materials there will be a Pro and Non Pro shader available.
+_!!Be sure to static batch the environment to reach optimal usage!!
+_The Asylum Base Shader also contains the ability to let the emission part blink.
+_All shaders can be found under Specular/
+_If you have question please email me at  crowsfieldco@gmail.com
