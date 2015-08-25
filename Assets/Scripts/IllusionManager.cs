@@ -5,12 +5,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.Serialization;
 
-[RequireComponent(typeof(Camera))]
-[RequireComponent(typeof(MotionBlur))]
-[RequireComponent(typeof(Twirl))]
-[RequireComponent(typeof(Fisheye))]
-[RequireComponent(typeof(VignetteAndChromaticAberration))]
-[RequireComponent(typeof(NoiseAndGrain))]
 
 public class IllusionManager : MonoBehaviour {
 
@@ -84,11 +78,11 @@ public class IllusionManager : MonoBehaviour {
 
 	public void GenerateSoundIllusionLoop(AudioClip audio){
 		GameObject temp = Instantiate(audioSourcePrefab) as GameObject;
-		temp.transform.parent = transform;
-		Action a = delegate {
-			temp.GetComponent<AudioSource>().PlayOneShot(audio);
-		};
-		StartCoroutine(RunIllusion(a));
+		temp.transform.parent = GameObject.FindWithTag("Player").transform;
+		temp.transform.position = temp.transform.parent.position;
+		temp.GetComponent<AudioSource>().loop = true;
+		temp.GetComponent<AudioSource>().clip = audio;
+		temp.GetComponent<AudioSource>().Play();
 	}
 
 	public void GenerateSoundIllusion(AudioClip audio){

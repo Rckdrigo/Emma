@@ -4,7 +4,7 @@ using System.Collections;
 [RequireComponent(typeof(AudioSource))]
 public class VoiceManagerLvl1 : MonoBehaviour {
 	
-	public AudioClip intro, tip;
+	public AudioClip intro, tip, price;
 	AudioSource audioSource;
 	
 	void Start () {
@@ -17,6 +17,10 @@ public class VoiceManagerLvl1 : MonoBehaviour {
 	
 	public void PlayIntro(){
 		audioSource.PlayOneShot(intro);
+	}
+
+	public void PlayPrice(){
+		audioSource.PlayOneShot(price);
 	}
 
 }

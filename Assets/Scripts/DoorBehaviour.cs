@@ -23,9 +23,11 @@ public class DoorBehaviour : MonoBehaviour {
 	}
 
 	public void ToogleDoor(){
-		if(Input.GetButtonDown("Fire1")){// && !locked){
+		
+		print ("AQUI " + locked);
+		if(Input.GetButtonDown("Fire1") && !locked){
 			
-			print ("AQUI");
+			print ("AQUI 2");
 			if(opened){
 				CloseDoor();
 			}
