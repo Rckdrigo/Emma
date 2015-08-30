@@ -130,7 +130,7 @@ Material:
       data:
         first:
           name: _Emission
-        second: .00999999978
+        second: 0
       data:
         first:
           name: _ColorTransition
