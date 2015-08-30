@@ -143,16 +143,16 @@ Material:
         second: 0
       data:
         first:
+          name: _Intensity
+        second: 1
+      data:
+        first:
           name: _Emission
         second: .00999999978
       data:
         first:
           name: _ColorTransition
         second: .5
-      data:
-        first:
-          name: _Intensity
-        second: 1
       data:
         first:
           name: _GraffitiIntensity
