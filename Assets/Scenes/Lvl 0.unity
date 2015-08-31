@@ -257,6 +257,66 @@ Prefab:
       propertyPath: OnEnterTrigger.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: SetActive
       objectReference: {fileID: 0}
+    - target: {fileID: 445860, guid: 3b5ad6ba72a4b6346aed634d4ba33d36, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 417562, guid: 3b5ad6ba72a4b6346aed634d4ba33d36, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 434214, guid: 3b5ad6ba72a4b6346aed634d4ba33d36, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 431818, guid: 3b5ad6ba72a4b6346aed634d4ba33d36, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 402410, guid: 3b5ad6ba72a4b6346aed634d4ba33d36, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 454800, guid: 3b5ad6ba72a4b6346aed634d4ba33d36, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 454330, guid: 3b5ad6ba72a4b6346aed634d4ba33d36, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 445860, guid: 3b5ad6ba72a4b6346aed634d4ba33d36, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 417562, guid: 3b5ad6ba72a4b6346aed634d4ba33d36, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 434214, guid: 3b5ad6ba72a4b6346aed634d4ba33d36, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 431818, guid: 3b5ad6ba72a4b6346aed634d4ba33d36, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 402410, guid: 3b5ad6ba72a4b6346aed634d4ba33d36, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 454800, guid: 3b5ad6ba72a4b6346aed634d4ba33d36, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 454330, guid: 3b5ad6ba72a4b6346aed634d4ba33d36, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 446022, guid: 3b5ad6ba72a4b6346aed634d4ba33d36, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3b5ad6ba72a4b6346aed634d4ba33d36, type: 2}
   m_IsPrefabParent: 0
@@ -309,7 +369,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11457376, guid: 4f04dfef05c7ab946b67cb9903abc202, type: 2}
       propertyPath: OnEnterTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 11457376, guid: 4f04dfef05c7ab946b67cb9903abc202, type: 2}
       propertyPath: OnEnterTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
@@ -318,14 +378,14 @@ Prefab:
     - target: {fileID: 11457376, guid: 4f04dfef05c7ab946b67cb9903abc202, type: 2}
       propertyPath: OnEnterTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1752980477}
+      objectReference: {fileID: 1752980478}
     - target: {fileID: 11457376, guid: 4f04dfef05c7ab946b67cb9903abc202, type: 2}
       propertyPath: OnEnterTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: StartAudioClip
+      value: PlayOneShot
       objectReference: {fileID: 0}
     - target: {fileID: 11457376, guid: 4f04dfef05c7ab946b67cb9903abc202, type: 2}
       propertyPath: OnEnterTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
+      value: UnityEngine.AudioClip, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 11457376, guid: 4f04dfef05c7ab946b67cb9903abc202, type: 2}
       propertyPath: OnEnterTrigger.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
@@ -355,6 +415,10 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 11457376, guid: 4f04dfef05c7ab946b67cb9903abc202, type: 2}
+      propertyPath: OnEnterTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 8300000, guid: 0f3783476575b2247a1a91bb86ec426d, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4f04dfef05c7ab946b67cb9903abc202, type: 2}
   m_IsPrefabParent: 0
@@ -367,7 +431,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 11457376, guid: 4f04dfef05c7ab946b67cb9903abc202, type: 2}
       propertyPath: OnEnterTrigger.m_PersistentCalls.m_Calls.Array.size
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 424682, guid: 4f04dfef05c7ab946b67cb9903abc202, type: 2}
       propertyPath: m_LocalPosition.x
@@ -423,7 +487,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11457376, guid: 4f04dfef05c7ab946b67cb9903abc202, type: 2}
       propertyPath: OnEnterTrigger.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 1
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 11457376, guid: 4f04dfef05c7ab946b67cb9903abc202, type: 2}
       propertyPath: OnEnterTrigger.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
@@ -432,10 +496,10 @@ Prefab:
     - target: {fileID: 11457376, guid: 4f04dfef05c7ab946b67cb9903abc202, type: 2}
       propertyPath: OnEnterTrigger.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 1752980477}
+      objectReference: {fileID: 987258659}
     - target: {fileID: 11457376, guid: 4f04dfef05c7ab946b67cb9903abc202, type: 2}
       propertyPath: OnEnterTrigger.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: StopAudioClip
+      value: set_enabled
       objectReference: {fileID: 0}
     - target: {fileID: 11457376, guid: 4f04dfef05c7ab946b67cb9903abc202, type: 2}
       propertyPath: OnEnterTrigger.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -481,6 +545,10 @@ Prefab:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 11457376, guid: 4f04dfef05c7ab946b67cb9903abc202, type: 2}
+      propertyPath: OnEnterTrigger.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4f04dfef05c7ab946b67cb9903abc202, type: 2}
   m_IsPrefabParent: 0
@@ -501,7 +569,6 @@ GameObject:
   - 33: {fileID: 1752980476}
   - 23: {fileID: 1752980475}
   - 82: {fileID: 1752980478}
-  - 114: {fileID: 1752980477}
   m_Layer: 0
   m_Name: Speaker
   m_TagString: Untagged
@@ -552,18 +619,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1752980473}
   m_Mesh: {fileID: 4300000, guid: eb0c96fee100ab545b4ea6f0a63acc30, type: 3}
---- !u!114 &1752980477
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1752980473}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b21458cfbe150c2479a17d81c297384f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  voiceClip: {fileID: 8300000, guid: 84406791e686adc42896d7ab75393579, type: 3}
 --- !u!82 &1752980478
 AudioSource:
   m_ObjectHideFlags: 0
@@ -879,11 +934,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11475766, guid: 485eae6b6835a6441877b364e64998db, type: 2}
       propertyPath: m_MouseLook.YSensitivity
-      value: 2
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 11475766, guid: 485eae6b6835a6441877b364e64998db, type: 2}
       propertyPath: m_MouseLook.XSensitivity
-      value: 2
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 11451102, guid: 485eae6b6835a6441877b364e64998db, type: 2}
       propertyPath: m_Enabled
@@ -910,6 +965,10 @@ Prefab:
       value: 
       objectReference: {fileID: 24373354, guid: b044048df21aa2a4a90dcf08be8e1861,
         type: 2}
+    - target: {fileID: 11475766, guid: 485eae6b6835a6441877b364e64998db, type: 2}
+      propertyPath: m_MouseLook.clampVerticalRotation
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 11470188, guid: 485eae6b6835a6441877b364e64998db, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 485eae6b6835a6441877b364e64998db, type: 2}
