@@ -23,11 +23,7 @@ public class DoorBehaviour : MonoBehaviour {
 	}
 
 	public void ToogleDoor(){
-		
-		print ("AQUI " + locked);
 		if(Input.GetButtonDown("Fire1") && !locked){
-			
-			print ("AQUI 2");
 			if(opened){
 				CloseDoor();
 			}
@@ -40,8 +36,11 @@ public class DoorBehaviour : MonoBehaviour {
 	}
 
 	public void OpenAndCloseDoor(){
+
+		StopAllCoroutines();
 		if(Input.GetButtonDown("Fire1") && !locked)
 			StartCoroutine("RotateAndReturn",initialRot);
+
 	}
 
 	public void UnlockDoor(){
@@ -72,17 +71,8 @@ public class DoorBehaviour : MonoBehaviour {
 	}
 
 	IEnumerator RotateAndReturn(){
-		coll.isTrigger = true;
-		while(transform.rotation != lastRot){
-			transform.rotation = Quaternion.RotateTowards(transform.rotation, lastRot, Time.deltaTime * rotSpeed);
-			yield return null;
-		}
-		coll.isTrigger = false;
-
-		while(transform.rotation != initialRot){
-			transform.rotation = Quaternion.RotateTowards(transform.rotation, initialRot, Time.deltaTime * rotSpeed);
-			yield return null;
-		}
-		LockDoor();
+		yield return StartCoroutine("Rotate",lastRot);
+		OnDoorOpened.Invoke();
+		yield return StartCoroutine("Rotate",initialRot);
 	}
 }
