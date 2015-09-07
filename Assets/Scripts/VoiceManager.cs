@@ -16,7 +16,7 @@ public class VoiceManager : MonoBehaviour {
 	private int indexInstruction;
 	private int nextDoorNumber;
 
-	public int minusCounter = 15;
+	int minusCounter = 0;
 	public bool started;
 	
 	void Start () {
@@ -68,9 +68,10 @@ public class VoiceManager : MonoBehaviour {
 				NextNumber();
 				StopAllCoroutines();
 				StartCoroutine(PlayInstruction(true));
+				minusCounter = 0;
 			}else{
-				minusCounter--;
-				if(minusCounter == 0){
+				minusCounter++;
+				if(minusCounter == 6){
 					Application.LoadLevel("Lvl 3");
 				}else{
 					StopAllCoroutines();

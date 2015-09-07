@@ -17,23 +17,23 @@ public class LastLevelBehaviour : MonoBehaviour {
 	}
 
 	IEnumerator AddNewAudio(){
-			GameObject o = ObjectPool.Instance.GetGameObjectOfType("AudioSource");
-			int r = Random.Range(0,audios.Count);
-			o.GetComponent<AudioSource>().clip = audios[r];
-			audios.RemoveAt(r);
-			o.GetComponent<AudioSource>().loop = true;
-			o.GetComponent<AudioSource>().Play();
+		yield return new WaitForSeconds(Random.Range(2,5));
+		GameObject o = ObjectPool.Instance.GetGameObjectOfType("AudioSource");
+		int r = Random.Range(0,audios.Count);
+		o.GetComponent<AudioSource>().clip = audios[r];
+		audios.RemoveAt(r);
+		o.GetComponent<AudioSource>().loop = true;
+		o.GetComponent<AudioSource>().Play();
 
-			yield return new WaitForSeconds(Random.Range(2,5));
-		
-			if(audios.Count > 0){
-				StartCoroutine(AddNewAudio());
-			}else{
-				finished.Invoke();
+	
+		if(audios.Count > 0){
+			StartCoroutine(AddNewAudio());
+		}else{
+			finished.Invoke();
 
-				yield return new WaitForSeconds(2f);
-				Application.LoadLevel("MainMenu");
-			}
+			yield return new WaitForSeconds(2f);
+			Application.LoadLevel("MainMenu");
+		}
 	}
 
 }

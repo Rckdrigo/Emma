@@ -24,6 +24,7 @@ public class DoorBehaviour : MonoBehaviour {
 
 	public void ToogleDoor(){
 		if(Input.GetButtonDown("Fire1") && !locked){
+			GetComponent<DoorSound>().PlayUnlocked();
 			if(opened){
 				CloseDoor();
 			}
@@ -32,6 +33,9 @@ public class DoorBehaviour : MonoBehaviour {
 				OnDoorOpened.Invoke();
 			}
 			opened = !opened;
+		}
+		if(locked && Input.GetButtonDown("Fire1") ){	
+			GetComponent<DoorSound>().PlayLocked();
 		}
 	}
 
